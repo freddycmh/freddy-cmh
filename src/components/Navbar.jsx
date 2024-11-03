@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../assets/fcmhLogo.png";
+import logo2 from "../assets/fcmhLogo2.png";
+
 import {
   FaGithub,
   FaInstagram,
@@ -12,7 +14,13 @@ const Navbar = () => {
     <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <a href="/" aria-label="Home">
-          <img src={logo} alt="Logo" className="mx-2" width={150} height={99} />
+          <img
+            src={logo2}
+            alt="Logo"
+            className="mx-2"
+            width={150}
+            height={99}
+          />
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">

@@ -2,8 +2,9 @@ import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-import { DiRedis } from "react-icons/di";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa6";
+import { FaJava } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { animate, motion } from "framer-motion";
 
@@ -63,14 +64,6 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2)}
-          className="p-4"
-        >
-          <DiRedis className="text-7xl text-red-700" />
-        </motion.div>
-        <motion.div
-          initial="initial"
-          animate="animate"
           variants={iconVariants(6)}
           className="p-4"
         >
@@ -83,6 +76,22 @@ const Technologies = () => {
           className="p-4"
         >
           <BiLogoPostgresql className="text-7xl text-sky-700" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(4)}
+          className="p-4"
+        >
+          <FaJava className="text-7xl text-sky-700" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(4)}
+          className="p-4"
+        >
+          <RiTailwindCssFill className="text-7xl text-sky-500" />
         </motion.div>
       </motion.div>
     </div>

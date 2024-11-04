@@ -80,7 +80,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(4)}
+          variants={iconVariants(3)}
           className="p-4"
         >
           <FaJava className="text-7xl text-sky-700" />
@@ -88,7 +88,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(4)}
+          variants={iconVariants(5)}
           className="p-4"
         >
           <RiTailwindCssFill className="text-7xl text-sky-500" />

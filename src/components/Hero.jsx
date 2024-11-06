@@ -1,6 +1,9 @@
 import React from "react";
 import profilePic from "../assets/fcmhProfile.png";
-import profilePic1 from "../assets/raviKumarProfile.webp";
+import profilePic2 from "../assets/fcmhProfile2.png";
+import profilePic3 from "../assets/fcmhProfile3.png";
+
+import profilePic4 from "../assets/raviKumarProfile.webp";
 
 import resume from "../assets/resume.pdf";
 import { HERO_CONTENT } from "../constants";
@@ -40,7 +43,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 ">
           <div className="flex justify-center lg:justify-start lg:p-8">
             <motion.img
-              src={profilePic}
+              src={profilePic3}
               alt="Freddy C. Mok Ho"
               className="border border-stone-900 rounded-3xl"
               width={650}

@@ -37,6 +37,14 @@ const Experience = () => {
                 </span>
               </h3>
               <p className="mb-4 text-stone-400">{experience.description}</p>
+              <p className="mb-4 text-white-400">
+                <a
+                  href={experience.url}
+                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                >
+                  Link
+                </a>
+              </p>
               <div className="flex flex-wrap gap-2">
                 {experience.technologies.map((tech, index) => (
                   <span

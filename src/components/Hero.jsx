@@ -3,8 +3,6 @@ import profilePic from "../assets/fcmhProfile.png";
 import profilePic2 from "../assets/fcmhProfile2.png";
 import profilePic3 from "../assets/fcmhProfile3.png";
 
-import profilePic4 from "../assets/raviKumarProfile.webp";
-
 import resume from "../assets/resume.pdf";
 import { HERO_CONTENT } from "../constants";
 import { motion, stagger } from "framer-motion";

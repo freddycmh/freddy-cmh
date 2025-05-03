@@ -10,7 +10,23 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2025 - Present",
+    role: "Web Developer",
+    company: "Department of Transportation",
+    description: `Contributed as a Web Developer within the NYC Department of Transportation’s IT & Telecom division, maintaining and updating the DOT’s public-facing websites using HTML, CSS, and JavaScript; collaborated across departments to create and optimize content, ensure accessibility compliance, and support agency initiatives through responsive web design and timely content delivery.`,
+    url: "https://www.nyc.gov/html/dot/html/home/home.shtml",
+    technologies: [ 
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Jira",
+      "Git",
+      "Adobe Dreamweaver",
+      "Adobe Photoshop"
+    ],
+  },
+  {
+    year: "2024 - 2025",
     role: "Full Stack Developer",
     company: "Battery Park City Residential LLC",
     description: `Developed a real estate marketplace.Implemented user-centric features like image upload, property tools, and advanced search, boosting user engagement by 50%, while optimizing state management with Redux Toolkit to support a 65% increase in demand and deploying the app on Render, which improved sales and customer retention.`,

@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a full-stack developer skilled in building efficient, user-focused applications. With experience in React, Node.js, MongoDB, and Express.js, I’ve developed projects that improve user engagement and streamline functionality. My goal is to leverage these skills to create impactful, reliable digital solutions.
+export const HERO_CONTENT = `I am a full stack software engineer skilled in building efficient, user-focused applications. With experience in React, Node.js, MongoDB, and Express.js, I’ve developed projects that improve user engagement and streamline functionality. My goal is to leverage these skills to create impactful, reliable digital solutions.
 `;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -27,7 +27,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2024 - 2025",
-    role: "Full Stack Developer",
+    role: "Full Stack Software Engineer",
     company: "Battery Park City Residential LLC",
     description: `Developed a real estate marketplace.Implemented user-centric features like image upload, property tools, and advanced search, boosting user engagement by 50%, while optimizing state management with Redux Toolkit to support a 65% increase in demand and deploying the app on Render, which improved sales and customer retention.`,
     url: "https://www.global-luxurylivings.com/",
@@ -43,7 +43,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2023 - 2024",
-    role: "Full Stack Developer",
+    role: "Full Stack Software Engineer",
     company: "Diskko",
     description: `Optimized web conversion tools and improved UX/UI with React.js, achieving a 6% increase in online sales and an 11% decrease in bounce rates. Leveraged Three.js and Valtio to implement a 3D shirt customization feature, boosting online sales by 12% and user engagement by 15%, while employing a mobile-first design approach to enhance mobile user satisfaction by 40%.`,
     url: "https://diskko.netlify.app/",

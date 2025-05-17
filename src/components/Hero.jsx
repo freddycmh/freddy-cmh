@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic3 from "../assets/fcmhProfile3.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/resume2.pdf";
 import { HERO_CONTENT } from "../constants";
 import { motion, stagger } from "framer-motion";
 

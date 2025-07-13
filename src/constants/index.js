@@ -58,6 +58,19 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+  title: "Note Taking Web App",
+  image: project4,
+  description:
+    "Built a full-stack MERN note-taking app where users can create, update, and delete notes. Implemented RESTful API routes with Express, connected to MongoDB for data persistence, and added rate-limiting with Upstash to protect backend endpoints. Frontend built with Vite + React, using Axios for HTTP requests and React Router for page navigation.",
+  technologies: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+  
+  ],
+},
+  {
   title: "BearEat",
   image: project3,
   description:

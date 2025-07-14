@@ -68,14 +68,17 @@ export const PROJECTS = [
     "React",
     "Node.js",
   
-  ],
+  
+    ],
+  url:"https://quicknote-avox.onrender.com/",
 },
   {
   title: "BearEat",
   image: project3,
   description:
     "Built a mobile app that helps users discover and choose restaurants by swiping, inspired by Tinder’s interface. Integrated Google Places API to fetch nearby restaurants based on user location and filters like cuisine, budget, and rating. Implemented global state using Context API and added a post-swipe summary with a decision spinner for indecisive users.",
-  technologies: ["React Native", "Expo", "Google Places API", "Context API", "JavaScript"],
+    technologies: ["React Native", "Expo", "Google Places API", "Context API", "JavaScript"],
+  url: "https://github.com/freddycmh/foodie-swipe",
 },
   {
     title: "Class Helper Platform",

@@ -39,6 +39,18 @@ const Projects = () => {
               >
                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
                 <p className="mb-4 text-stone-400">{project.description}</p>
+                {project.url && (
+                  <p className="mb-4 text-gray-400">
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200"
+                    >
+                      Visit Project ↗
+                    </a>
+                  </p>
+                )}
                 {project.technologies.map((tech, techIndex) => (
                   <span
                     className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"

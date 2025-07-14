@@ -37,12 +37,14 @@ const Experience = () => {
                 </span>
               </h3>
               <p className="mb-4 text-stone-400">{experience.description}</p>
-              <p className="mb-4 text-white-400">
+              <p className="mb-4 text-gray-400">
                 <a
                   href={experience.url}
-                  className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200"
                 >
-                  Link
+                  Visit Page↗
                 </a>
               </p>
               <div className="flex flex-wrap gap-2">

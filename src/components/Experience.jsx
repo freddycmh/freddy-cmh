@@ -1,6 +1,7 @@
 import React from "react";
 import { EXPERIENCES } from "../constants"; // Make sure it matches the actual name in the constants file.
 import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 
 const Experience = () => {
   return (
@@ -44,7 +45,7 @@ const Experience = () => {
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200"
                 >
-                  Visit Page↗
+                  <ExternalLink className="inline-block" /> Visit Page
                 </a>
               </p>
               <div className="flex flex-wrap gap-2">

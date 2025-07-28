@@ -1,6 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 
 const Projects = () => {
   return (
@@ -45,9 +46,9 @@ const Projects = () => {
                       href={project.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200"
+                      className=" text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200 text"
                     >
-                      Visit Project ↗
+                      <ExternalLink className="inline-block" /> Visit Project
                     </a>
                   </p>
                 )}

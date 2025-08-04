@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 import logo from "../assets/projects/logo.png";
+import logo2 from "../assets/projects/logo2.png";
 
 export const HERO_CONTENT = `I am a full stack software engineer skilled in building efficient, user-focused applications. With experience in React, Node.js, MongoDB, and Express.js, I’ve developed projects that improve user engagement and streamline functionality. My goal is to leverage these skills to create impactful, reliable digital solutions.
 `;
@@ -88,7 +89,7 @@ export const PROJECTS = [
   },
   {
     title: "BearEat",
-    image: project3,
+    image: logo2,
     description:
       "Built a mobile app that helps users discover and choose restaurants by swiping, inspired by Tinder’s interface. Integrated Google Places API to fetch nearby restaurants based on user location and filters like cuisine, budget, and rating. Implemented global state using Context API and added a post-swipe summary with a decision spinner for indecisive users.",
     technologies: [
